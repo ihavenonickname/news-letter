@@ -105,8 +105,8 @@ class Subscriber():
     def _menu_before_login(self):
         print('1 - Log in into existing account')
         print('2 - Create new account and log into it')
-        print('2 - Show last post')
-        print('3 - List posts')
+        print('3 - Show last post')
+        print('4 - List posts')
 
         option = ask_user('Choose an option:')
 
